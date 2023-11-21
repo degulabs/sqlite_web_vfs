@@ -1,3 +1,7 @@
+> NOTE: this is a fork that provides this extension in a form of NPM package.
+> The extension will be compiled as part of the package install script.
+> It also provides a function to get the compiled extension path, see `index.mjs`.
+
 # sqlite_web_vfs
 
 This [SQLite3 virtual filesystem extension](https://www.sqlite.org/vfs.html) provides read-only access to database files over HTTP(S), including S3 and the like, without involving a [FUSE mount](https://en.wikipedia.org/wiki/Filesystem_in_Userspace) (a fine alternative when available). **See also** the companion projects [sqlite_zstd_vfs](https://github.com/mlin/sqlite_zstd_vfs/) and [Genomics Extension for SQLite](https://github.com/mlin/GenomicSQLite), which include sqlite_web_vfs along with other features, most notably compression of the database file.
