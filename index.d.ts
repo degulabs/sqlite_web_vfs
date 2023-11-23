@@ -1,3 +1,1 @@
-import type { PathLike } from 'fs';
-
-export function getWebVFSExtensionPath(): PathLike;
+export function getWebVFSExtensionPath(): string;
